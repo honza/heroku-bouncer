@@ -17,7 +17,7 @@ def main():
     urls = urls.split(",")
 
     for url in urls:
-        logger.info('Hittingg %s' % url)
+        logger.info('Hitting %s' % url)
         requests.get(url)
 
     time.sleep(interval * 60)
